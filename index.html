@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/icon.png">
+    <title>Início</title>
+</head>
+<body>
+    <p class="navback">
+        <ul class="navbar">
+            <li><a class="navbtn" href="default.asp">Home</a></li>
+            <li><a class="navbtn" href="news.asp">News</a></li>
+            <li><a class="navbtn" href="contact.asp">Contact</a></li>
+            <li><a class="navbtn" href="about.asp">About</a></li>
+        </ul>
+    </p>
+    <div class="menu">
+        <form action="scripts/main.js" method="post">
+            <label for="user">User:</label>
+            <input type="text" id="user" name="user"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button type="submit" onclick="return Login()">Login</button>
+        </form>
+    </div>
+</body>
+</html>
